@@ -1,0 +1,393 @@
+html {
+
+    border-radius: 0px;
+    font: 2em 'Monotype Corsiva', serif;
+
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+body {
+    background: ##af6d23;
+background-image: url("./Immagini/ZenBG-1.png"), url("./Immagini/ZenBG-2.png");
+background-repeat: repeat-y, repeat;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: center;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    margin: 10%;
+    margin-top: 5%;
+    
+
+}
+
+#container{
+        background-image: url(./Immagini/yellowpaper.jpg);
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+    -ms-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+    -moz-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+    -webkit-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+}
+#mainDiario{
+    color: #222;
+
+    background-color: none;
+    list-style-type: none;
+}
+#
+
+body li{
+        list-style-type: none;
+
+}
+
+a:link {
+    text-decoration: bold;
+    text-decoration: underline;
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    
+
+}
+
+a:visited {
+    text-decoration: bold;
+    color: black;
+}
+
+a:hover {
+    text-decoration: bold;
+    color: whitesmoke;
+}
+
+a:active {
+    text-decoration: bold;
+    color: ghostwhite;
+}
+#container {
+}
+
+td: {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#header {
+    position: static;
+    text-align: center;
+    padding-top: 1%;
+    margin: 0px, auto;
+    background-color: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-bottom-style: double;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+}
+
+img {
+    width:100%;
+    height: 100%;
+}
+#header h1 {
+    color: black;
+    opacity: 0.75;
+    font-size: 50px;
+    line-height: 140%;
+
+} 
+
+
+#main li{
+    list-style-type: none;
+}
+
+#main h1{
+    text-align: center;
+    font: 2em 'Great Vibes', Palatino, serif;
+        color: #222;
+    font-weight: 600;
+
+}
+
+#main h2{
+            color: #222;
+    font-weight: 600;
+
+}
+
+
+#navigation li {
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    display: inline;
+
+}
+#navigationBottom li {
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    display: inline;
+
+}
+#footer li {
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    display: inline;
+
+}
+
+#footer a:link {
+    text-decoration: bold;
+    text-decoration: underline;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    
+
+}
+
+#footer a:visited {
+    text-decoration: bold;
+    color: whitesmoke;
+}
+
+
+
+ 
+body{
+        font: 2em 'Great Vibes', Palatino, 'Monotype Corsiva' serif;
+       
+
+ }
+    
+ html>body, html>body #container{
+        height:auto;
+}  
+
+#footer {
+
+        width:100%;
+        background-color: rgba(0,0,0,0.4); ;
+        text-align: center;
+        color: white;
+        padding-bottom: 100%px;
+        left:0px;
+        bottom:0px;
+        height:0px;
+}
+    
+#main{
+        font: 2.5em 'Great Vibes', Palatino, serif;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: none;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 10px;
+        font-family: cursive;
+        font-size: 20px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-rendering: optimizeLegibility;
+        line-height: 140%;
+        font: 2em 'Great Vibes', Palatino, 'Monotype Corsiva', serif;
+
+    
+
+    }
+    
+    #mainDiario{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font: 2em 'Great Vibes', Palatino, 'Monotype Corsiva', serif;
+
+    }
+    
+    header{
+            height: 110px;
+                line-height: 140%;
+
+
+    }
+    
+    #navigation{
+    
+    }
+
+@media screen and (min-width:1080){    
+     html>body, html>body #container{
+        height:auto;
+    }  
+
+   
+    #main{
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: none;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 10px;
+        font-family: cursive;
+        font-size: 20px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-rendering: optimizeLegibility;
+        line-height: 140%;
+        font: 50px 'Great Vibes', Palatino, 'Monotype Corsiva', serif;
+
+
+    
+
+    }
+    
+    #mainDiario{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font: 70px 'Great Vibes', Palatino, 'Monotype Corsiva', serif;
+
+
+    }
+    
+    header{
+            height: 110px;
+
+    }
+    
+    #navigation{
+    
+    }
+}
+
+@media screen and (min-width:768) and (max-width: 1079){    
+    
+    html>body, html>body #container{
+        height:auto;
+    }  
+
+   
+    #main{
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: none;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 10px;
+        font-family: cursive;
+        font-size: 20px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-rendering: optimizeLegibility;
+        line-height: 140%;
+        font: 1em 'Great Vibes', Palatino, 'Monotype Corsiva', serif;
+
+
+    
+
+    }
+    
+    #mainDiario{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font: 0.5em 'Great Vibes', Palatino, 'Monotype Corsiva', serif;
+
+
+    }
+    
+    header{
+            height: 110px;
+
+    }
+    
+    #navigation{
+    
+    }
+}
+@media (max-width: 767px) { 
+    body{
+            margin: 0%;
+
+    }
+    
+    html>body, html>body #container{
+        height:auto;
+    }  
+
+    #main{
+        margin-left: 3%;
+        margin-right: 3%;
+        background-color: none;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 10px;
+        font-family: cursive;
+        font-size: 20px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-rendering: optimizeLegibility;
+        line-height: 140%;
+        font: 0.5em 'Great Vibes', Palatino, 'Monotype Corsiva', serif;
+
+    
+
+    }
+    
+    #mainDiario{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 400;
+        font: 0.5em 'Great Vibes', Palatino, 'Monotype Corsiva', serif;
+
+
+    }
+    
+    header{
+            height: 110px;
+
+    }
+    
+    #navigation{
+    
+    }
+}
